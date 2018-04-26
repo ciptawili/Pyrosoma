@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Pyrosoma,Chrome 66.0.3359.117,,2018-04-24 09:51:05,2018-04-24 09:51:55,50.157s,PASSED
+,,,,,,
+Test Cases/LoginCondition.Pyrosoma,Chrome 66.0.3359.117,,2018-04-24 09:51:06,2018-04-24 09:51:23,17.121s,PASSED
+openBrowser,Chrome 66.0.3359.117,,2018-04-24 09:51:06,2018-04-24 09:51:10,3.155s,PASSED
+navigateToUrl,Chrome 66.0.3359.117,,2018-04-24 09:51:10,2018-04-24 09:51:13,3.382s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 09:51:13,2018-04-24 09:51:14,0.905s,PASSED
+setText,Chrome 66.0.3359.117,,2018-04-24 09:51:14,2018-04-24 09:51:15,1.444s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 09:51:15,2018-04-24 09:51:15,0.131s,PASSED
+setText,Chrome 66.0.3359.117,,2018-04-24 09:51:15,2018-04-24 09:51:17,1.697s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 09:51:17,2018-04-24 09:51:19,2.010s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 09:51:19,2018-04-24 09:51:19,0.148s,PASSED
+Statement - VarA = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Sign in to your account/div_Your account or password i)),Chrome 66.0.3359.117,,2018-04-24 09:51:19,2018-04-24 09:51:20,0.168s,PASSED
+Statement - println(VarA),Chrome 66.0.3359.117,,2018-04-24 09:51:20,2018-04-24 09:51:20,0.006s,PASSED
+"Statement - If (VarA == ""Your account or password is incorrect. If you don't remember your password, reset it now."")",Chrome 66.0.3359.117,,2018-04-24 09:51:20,2018-04-24 09:51:22,2.134s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 09:51:22,2018-04-24 09:51:23,1.196s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 09:51:23,2018-04-24 09:51:23,0.113s,PASSED
+,,,,,,
+Test Cases/Logout.Pyrosoma,Chrome 66.0.3359.117,,2018-04-24 09:51:23,2018-04-24 09:51:55,32.470s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 09:51:23,2018-04-24 09:51:54,31.374s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 09:51:54,2018-04-24 09:51:55,0.813s,PASSED
+closeBrowser,Chrome 66.0.3359.117,,2018-04-24 09:51:55,2018-04-24 09:51:55,0.150s,PASSED

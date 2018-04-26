@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pyrosoma" time="50" tests="1" failures="1" errors="0">
+   <testsuite name="Pyrosoma" tests="1" failures="1" errors="0" time="50" timestamp="2018-04-25 10:07:13" hostname="ciptawiliansyah - 10.0.14.64" id="Test Suites/Pyrosoma">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ciptawiliansyah/Katalon Studio/Pyrosom/Reports/Pyrosoma/20180425_100703"/>
+         <property name="logFiles" value="/Users/ciptawiliansyah/Katalon Studio/Pyrosom/Reports/Pyrosoma/20180425_100703/execution0.log"/>
+         <property name="attachments" value="/Users/ciptawiliansyah/Katalon Studio/Pyrosom/Reports/Pyrosoma/20180425_100703/1524625683671.png"/>
+         <property name="hostName" value="ciptawiliansyah - 10.0.14.64"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="dbServerInfo" value="PostgreSQL 9.6.6"/>
+         <property name="hostAddress" value="10.0.14.64"/>
+         <property name="sessionId" value="40f7fe31-7190-9b43-9d62-9fecdd2564fe"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/LoginCondition.Pyrosoma" classname="Test Cases/LoginCondition.Pyrosoma" status="PASSED">
+         <system-out><![CDATA[2018-04-25 10:07:14 - [TEST_CASE][PASSED] - Test Cases/LoginCondition.Pyrosoma: Test Cases/LoginCondition.Pyrosoma
+
+2018-04-25 10:07:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-25 10:07:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-25 10:07:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://development-pyrosoma.bhinneka.com/' successfully
+
+2018-04-25 10:07:22 - [MESSAGE][PASSED] - Navigate to 'http://development-pyrosoma.bhinneka.com/' successfully
+
+2018-04-25 10:07:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pyrosoma/button_Sign In' is clicked on
+
+2018-04-25 10:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pyrosoma/button_Sign In' is clicked on
+
+2018-04-25 10:07:23 - [TEST_STEP][PASSED] - setText: Text 'autoqa@bhinneka.com' is set on object 'Object Repository/Page_Sign in to your account/input_loginfmt'
+
+2018-04-25 10:07:24 - [MESSAGE][PASSED] - Text 'autoqa@bhinneka.com' is set on object 'Object Repository/Page_Sign in to your account/input_loginfmt'
+
+2018-04-25 10:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:24 - [TEST_STEP][PASSED] - setText: Text 'test123' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2018-04-25 10:07:25 - [MESSAGE][PASSED] - Text 'test123' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2018-04-25 10:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/div_Your account or password i' is clicked on
+
+2018-04-25 10:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/div_Your account or password i' is clicked on
+
+2018-04-25 10:07:28 - [TEST_STEP][PASSED] - Statement - VarA = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Sign in to your account/div_Your account or password i)): Text of object 'Object Repository/Page_Sign in to your account/div_Your account or password i' is: 'Your account or password is incorrect. If you don't remember your password, reset it now.'
+
+2018-04-25 10:07:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Sign in to your account/div_Your account or password i' is: 'Your account or password is incorrect. If you don't remember your password, reset it now.'
+
+2018-04-25 10:07:28 - [TEST_STEP][PASSED] - Statement - println(VarA): null
+
+2018-04-25 10:07:28 - [TEST_STEP][PASSED] - Statement - If (VarA == "Your account or password is incorrect. If you don't remember your password, reset it now."): Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:28 - [TEST_STEP][PASSED] - setText: Text 'Bhinneka321' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2018-04-25 10:07:29 - [MESSAGE][PASSED] - Text 'Bhinneka321' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2018-04-25 10:07:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-25 10:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pyrosoma/h4_Dashboard' is clicked on
+
+2018-04-25 10:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pyrosoma/h4_Dashboard' is clicked on
+
+2018-04-25 10:07:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pyrosoma/div_Selamat Datang' is clicked on
+
+2018-04-25 10:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pyrosoma/div_Selamat Datang' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout.Pyrosoma" classname="Test Cases/Logout.Pyrosoma" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' located by 'By.xpath: //a[(text() = 'Cipta Wiliansyah' or . = 'Cipta Wiliansyah')]' not found)"/>
+         <system-out><![CDATA[2018-04-25 10:07:32 - [TEST_CASE][FAILED] - Test Cases/Logout.Pyrosoma: Test Cases/Logout.Pyrosoma FAILED because (of) Unable to click on object 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' located by 'By.xpath: //a[(text() = 'Cipta Wiliansyah' or . = 'Cipta Wiliansyah')]' not found)
+
+2018-04-25 10:07:32 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' located by 'By.xpath: //a[(text() = 'Cipta Wiliansyah' or . = 'Cipta Wiliansyah')]' not found)
+
+2018-04-25 10:08:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' located by 'By.xpath: //a[(text() = 'Cipta Wiliansyah' or . = 'Cipta Wiliansyah')]' not found)
+[[ATTACHMENT|/Users/ciptawiliansyah/Katalon Studio/Pyrosom/Reports/Pyrosoma/20180425_100703/1524625683671.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-25 10:07:32 - [TEST_CASE][FAILED] - Test Cases/Logout.Pyrosoma: Test Cases/Logout.Pyrosoma FAILED because (of) Unable to click on object 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' located by 'By.xpath: //a[(text() = 'Cipta Wiliansyah' or . = 'Cipta Wiliansyah')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-25 10:07:13 - [TEST_SUITE][FAILED] - Pyrosoma: Test Cases/Logout.Pyrosoma FAILED because (of) Unable to click on object 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' located by 'By.xpath: //a[(text() = 'Cipta Wiliansyah' or . = 'Cipta Wiliansyah')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-25 10:07:13 - [TEST_SUITE][FAILED] - Pyrosoma: Test Cases/Logout.Pyrosoma FAILED because (of) Unable to click on object 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' located by 'By.xpath: //a[(text() = 'Cipta Wiliansyah' or . = 'Cipta Wiliansyah')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

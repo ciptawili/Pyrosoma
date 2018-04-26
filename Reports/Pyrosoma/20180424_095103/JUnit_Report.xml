@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pyrosoma" time="50" tests="2" failures="0" errors="0">
+   <testsuite name="Pyrosoma" tests="2" failures="0" errors="0" time="50" timestamp="2018-04-24 09:51:05" hostname="ciptawiliansyah - 10.0.14.64" id="Test Suites/Pyrosoma">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ciptawiliansyah/Katalon Studio/Pyrosom/Reports/Pyrosoma/20180424_095103"/>
+         <property name="logFiles" value="/Users/ciptawiliansyah/Katalon Studio/Pyrosom/Reports/Pyrosoma/20180424_095103/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ciptawiliansyah - 10.0.14.64"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.117"/>
+         <property name="dbServerInfo" value="PostgreSQL 9.6.6"/>
+         <property name="hostAddress" value="10.0.14.64"/>
+         <property name="sessionId" value="cc19059e6fe90a0022e1fc2bac38b10a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/LoginCondition.Pyrosoma" classname="Test Cases/LoginCondition.Pyrosoma" status="PASSED">
+         <system-out><![CDATA[2018-04-24 09:51:06 - [TEST_CASE][PASSED] - Test Cases/LoginCondition.Pyrosoma: Test Cases/LoginCondition.Pyrosoma
+
+2018-04-24 09:51:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-24 09:51:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-24 09:51:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://staging.pyrosoma.bhinneka.com/' successfully
+
+2018-04-24 09:51:13 - [MESSAGE][PASSED] - Navigate to 'http://staging.pyrosoma.bhinneka.com/' successfully
+
+2018-04-24 09:51:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pyrosoma/button_Sign In' is clicked on
+
+2018-04-24 09:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pyrosoma/button_Sign In' is clicked on
+
+2018-04-24 09:51:14 - [TEST_STEP][PASSED] - setText: Text 'autoqa@bhinneka.com' is set on object 'Object Repository/Page_Sign in to your account/input_loginfmt'
+
+2018-04-24 09:51:15 - [MESSAGE][PASSED] - Text 'autoqa@bhinneka.com' is set on object 'Object Repository/Page_Sign in to your account/input_loginfmt'
+
+2018-04-24 09:51:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:15 - [TEST_STEP][PASSED] - setText: Text 'test123' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2018-04-24 09:51:17 - [MESSAGE][PASSED] - Text 'test123' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2018-04-24 09:51:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/div_Your account or password i' is clicked on
+
+2018-04-24 09:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/div_Your account or password i' is clicked on
+
+2018-04-24 09:51:19 - [TEST_STEP][PASSED] - Statement - VarA = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Sign in to your account/div_Your account or password i)): Text of object 'Object Repository/Page_Sign in to your account/div_Your account or password i' is: 'Your account or password is incorrect. If you don't remember your password, reset it now.'
+
+2018-04-24 09:51:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Sign in to your account/div_Your account or password i' is: 'Your account or password is incorrect. If you don't remember your password, reset it now.'
+
+2018-04-24 09:51:20 - [TEST_STEP][PASSED] - Statement - println(VarA): null
+
+2018-04-24 09:51:20 - [TEST_STEP][PASSED] - Statement - If (VarA == "Your account or password is incorrect. If you don't remember your password, reset it now."): Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:20 - [TEST_STEP][PASSED] - setText: Text 'Bhinneka321' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2018-04-24 09:51:20 - [MESSAGE][PASSED] - Text 'Bhinneka321' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2018-04-24 09:51:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_idSIButton9' is clicked on
+
+2018-04-24 09:51:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pyrosoma/h4_Dashboard' is clicked on
+
+2018-04-24 09:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pyrosoma/h4_Dashboard' is clicked on
+
+2018-04-24 09:51:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pyrosoma/div_Selamat Datang' is clicked on
+
+2018-04-24 09:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pyrosoma/div_Selamat Datang' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout.Pyrosoma" classname="Test Cases/Logout.Pyrosoma" status="PASSED">
+         <system-out><![CDATA[2018-04-24 09:51:23 - [TEST_CASE][PASSED] - Test Cases/Logout.Pyrosoma: Test Cases/Logout.Pyrosoma
+
+2018-04-24 09:51:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' is clicked on
+
+2018-04-24 09:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pyrosoma/a_Cipta Wiliansyah' is clicked on
+
+2018-04-24 09:51:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pyrosoma/a_Sign out' is clicked on
+
+2018-04-24 09:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pyrosoma/a_Sign out' is clicked on
+
+2018-04-24 09:51:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-24 09:51:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-24 09:51:05 - [TEST_SUITE][PASSED] - Pyrosoma: Test Cases/Logout.Pyrosoma]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>TestDataBase</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4852d585-0e45-4a04-9113-cd367b586b3b</dataFileGUID>
+   <dataSourceUrl>jdbc:postgresql://pyrosoma.chzl1mgg7vpx.ap-southeast-1.rds.amazonaws.com/pyrosoma</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>UHlyMHNvbUFiaDFubjNrNGMwbQ==</password>
+   <query>select * from users where mail in ('autoqa@bhinneka.com','cipta.wiliansyah@bhinneka.com')</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>sa</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

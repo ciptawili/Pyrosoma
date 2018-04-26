@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Pyrosoma,Firefox 59.0,,2018-04-25 10:07:13,2018-04-25 10:08:04,50.287s,FAILED
+,,,,,,
+Test Cases/LoginCondition.Pyrosoma,Firefox 59.0,,2018-04-25 10:07:14,2018-04-25 10:07:32,18.301s,PASSED
+openBrowser,Firefox 59.0,,2018-04-25 10:07:15,2018-04-25 10:07:20,5.017s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-25 10:07:20,2018-04-25 10:07:22,2.101s,PASSED
+click,Firefox 59.0,,2018-04-25 10:07:22,2018-04-25 10:07:23,1.056s,PASSED
+setText,Firefox 59.0,,2018-04-25 10:07:23,2018-04-25 10:07:24,0.861s,PASSED
+click,Firefox 59.0,,2018-04-25 10:07:24,2018-04-25 10:07:24,0.282s,PASSED
+setText,Firefox 59.0,,2018-04-25 10:07:24,2018-04-25 10:07:25,1.605s,PASSED
+click,Firefox 59.0,,2018-04-25 10:07:25,2018-04-25 10:07:28,2.351s,PASSED
+click,Firefox 59.0,,2018-04-25 10:07:28,2018-04-25 10:07:28,0.332s,PASSED
+Statement - VarA = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Sign in to your account/div_Your account or password i)),Firefox 59.0,,2018-04-25 10:07:28,2018-04-25 10:07:28,0.093s,PASSED
+Statement - println(VarA),Firefox 59.0,,2018-04-25 10:07:28,2018-04-25 10:07:28,0.005s,PASSED
+"Statement - If (VarA == ""Your account or password is incorrect. If you don't remember your password, reset it now."")",Firefox 59.0,,2018-04-25 10:07:28,2018-04-25 10:07:31,2.308s,PASSED
+click,Firefox 59.0,,2018-04-25 10:07:31,2018-04-25 10:07:32,1.404s,PASSED
+click,Firefox 59.0,,2018-04-25 10:07:32,2018-04-25 10:07:32,0.242s,PASSED
+,,,,,,
+Test Cases/Logout.Pyrosoma,Firefox 59.0,,2018-04-25 10:07:32,2018-04-25 10:08:03,31.150s,FAILED
+click,Firefox 59.0,,2018-04-25 10:07:32,2018-04-25 10:08:03,30.951s,FAILED

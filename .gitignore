@@ -31,3 +31,8 @@ Makefile.in
 # http://www.gnu.org/software/texinfo
 
 /texinfo.tex
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/

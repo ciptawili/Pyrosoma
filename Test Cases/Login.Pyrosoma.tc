@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login.Pyrosoma</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb80d9de-6941-4a5d-aa12-6bd53a77673f</testCaseGuid>
+   <variable>
+      <defaultValue>'http://staging.pyrosoma.bhinneka.com/'</defaultValue>
+      <description></description>
+      <id>64d015e1-bb5c-4e96-b521-c560f9354c30</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'autoqa@bhinneka.com'</defaultValue>
+      <description></description>
+      <id>3c9a78af-4dac-45a6-a49d-026d17d197b7</id>
+      <masked>false</masked>
+      <name>UserID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bhinneka321'</defaultValue>
+      <description></description>
+      <id>8a8bba58-b48b-4735-9e09-8816b741ec86</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
