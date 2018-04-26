@@ -42,5 +42,5 @@ WebUI.click(findTestObject('Page_Pyrosoma/div_Selamat Datang'))
 
 result = WebUI.getText(findTestObject('Page_Pyrosoma/div_Selamat Datang'))
 
-not_run: println(result)
+println(result)
 
