@@ -30,8 +30,7 @@ WebUI.setText(findTestObject('Page_Sign in to your account/input_loginfmt'), fin
 
 WebUI.click(findTestObject('Page_Sign in to your account/input_idSIButton9'))
 
-WebUI.setText(findTestObject('Page_Sign in to your account/input_passwd'), findTestData('TestDataUsers').getValue(3,
-	1))
+WebUI.setText(findTestObject('Page_Sign in to your account/input_passwd'), findTestData('TestDataUsers').getValue(3, 1))
 
 WebUI.click(findTestObject('Page_Sign in to your account/input_idSIButton9'))
 
@@ -43,19 +42,5 @@ WebUI.click(findTestObject('Page_Pyrosoma/div_Selamat Datang'))
 
 result = WebUI.getText(findTestObject('Page_Pyrosoma/div_Selamat Datang'))
 
-println result;
-
-//string a = toString(WebUI.getText(findTestObject('Page_Pyrosoma/div_Selamat Datang')))
-
-//println(a)
-
-//WebUI.setText(findTestObject('Page_Sign in to your account/input_passwd'), 'test123')
-
-//WebUI.click(findTestObject('Page_Sign in to your account/input_idSIButton9'))
-
-//WebUI.click(findTestObject('Page_Sign in to your account/div_Your account or password i'))
-
-//if (WebUI.getAlertText(findTestObject('Page_Sign in to your account/div_Your account or password i'))) {
-    
-//}
+println(result)
 
